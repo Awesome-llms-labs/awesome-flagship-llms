@@ -52,8 +52,8 @@ Move the entry out of `data/flagship-llms.json` and `README.md`; add a row to th
 
 CI validates:
 - JSON parses and all fields are present with the right types.
-- No duplicate names or URLs.
+- No duplicate names. (Sibling models from one lab may share an official page URL.)
 - All `url` / `pricing_url` start with `https://`.
 - `status` is one of `active`, `beta`, `deprecated`, `commercial`; `category` is `"flagship"`.
-- `price_verified` is a boolean; unverified entries must not claim a `pricing_url`.
+- `price_verified` is a boolean; verified entries must have an https `pricing_url`, unverified entries leave it empty.
 - All Markdown links in `README.md`, `CONTRIBUTING.md`, and `docs/` resolve (lychee), ignoring known-blocked hosts.

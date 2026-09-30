@@ -31,18 +31,20 @@ jobs:
               for field, ftype in required.items():
                   assert field in entry, f"entry {i} missing field: {field}"
                   assert isinstance(entry[field], ftype), f"entry {i} field {field} must be {ftype.__name__}"
-                  if ftype is str:
+                  if ftype is str and field not in {"pricing_url"}:
                       assert entry[field].strip(), f"entry {i} field {field} must be non-empty"
               assert entry["status"] in valid_status, f"entry {i} invalid status: {entry['status']}"
               assert entry["category"] == "flagship", f"entry {i} category must be 'flagship'"
               for u in (entry["url"], entry["pricing_url"]):
                   if u:
                       assert u.startswith("https://"), f"entry {i} URL must use https: {u}"
-              if not entry["price_verified"]:
+              if entry["price_verified"]:
+                  assert entry["pricing_url"].startswith("https://"), f"entry {i} verified price needs https pricing_url"
+              else:
                   assert entry["pricing_url"] == "", f"entry {i} unverified price must not claim a pricing_url"
               assert entry["name"] not in names, f"duplicate name: {entry['name']}"
-              assert entry["url"] not in urls, f"duplicate url: {entry['url']}"
-              names.add(entry["name"]); urls.add(entry["url"])
+              # sibling models from one lab may share an official page url
+              names.add(entry["name"])
               assert 1 <= len(entry["features"]) <= 6, f"entry {i} features must have 1-6 items"
           print(f"OK: {len(data)} flagship entries validated")
           EOF
