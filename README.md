@@ -42,6 +42,7 @@ The flagship race in 2026 is a story of convergence and divergence: OpenAI's **G
 - [Benchmarks & eval notes](#benchmarks--eval-notes)
 - [Retired & superseded flagships (2026)](#retired--superseded-flagships-2026)
 - [Guides](#guides)
+- [Related repositories](#related-repositories)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -191,6 +192,13 @@ Announced but unshipped at cutoff: **Gemini 3.5 Pro** (Google), **Qwen 4 Max** (
 - [Benchmarks & eval notes](docs/benchmarks-notes.md) — how to read the numbers
 - [Glossary](docs/glossary.md) — terms used in this repo
 - [Status changes](docs/status-changes.md) — retirements, renames, pricing changes
+
+## Related repositories
+
+- [awesome-flash-llms](https://github.com/dakotac1994/awesome-flash-llms) — sibling list: cost-performance Flash-class LLMs and their $/1M-token pricing.
+- [awesome-fast-llms](https://github.com/dakotac1994/awesome-fast-llms) — sibling list: inference-speed LLMs, providers, engines, and optimization techniques.
+- [awesome-free-llms](https://github.com/dakotac1994/awesome-free-llms) — sibling list: free LLM API tiers, free chat apps, and open-weight local models.
+- [awesome-decisions-llms](https://github.com/dakotac1994/awesome-decisions-llms) — sibling list: LLMs and systems for decision-making — decision-tuned models, decision benchmarks & evals, frameworks, and key research papers.
 
 ## Contributing
 
