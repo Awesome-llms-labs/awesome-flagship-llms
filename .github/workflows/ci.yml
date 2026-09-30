@@ -1,0 +1,53 @@
+name: ci
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate data/flagship-llms.json
+        run: |
+          python3 - <<'EOF'
+          import json, pathlib, re, sys
+
+          data = json.loads(pathlib.Path("data/flagship-llms.json").read_text())
+          assert isinstance(data, list) and data, "JSON must be a non-empty list"
+          required = {
+              "name": str, "vendor": str, "url": str, "description": str,
+              "price_input_per_1m": str, "price_output_per_1m": str,
+              "price_verified": bool, "pricing_url": str, "status": str,
+              "category": str, "features": list,
+          }
+          valid_status = {"active", "beta", "deprecated", "commercial"}
+          names, urls = set(), set()
+          for i, entry in enumerate(data):
+              for field, ftype in required.items():
+                  assert field in entry, f"entry {i} missing field: {field}"
+                  assert isinstance(entry[field], ftype), f"entry {i} field {field} must be {ftype.__name__}"
+                  if ftype is str:
+                      assert entry[field].strip(), f"entry {i} field {field} must be non-empty"
+              assert entry["status"] in valid_status, f"entry {i} invalid status: {entry['status']}"
+              assert entry["category"] == "flagship", f"entry {i} category must be 'flagship'"
+              for u in (entry["url"], entry["pricing_url"]):
+                  if u:
+                      assert u.startswith("https://"), f"entry {i} URL must use https: {u}"
+              if not entry["price_verified"]:
+                  assert entry["pricing_url"] == "", f"entry {i} unverified price must not claim a pricing_url"
+              assert entry["name"] not in names, f"duplicate name: {entry['name']}"
+              assert entry["url"] not in urls, f"duplicate url: {entry['url']}"
+              names.add(entry["name"]); urls.add(entry["url"])
+              assert 1 <= len(entry["features"]) <= 6, f"entry {i} features must have 1-6 items"
+          print(f"OK: {len(data)} flagship entries validated")
+          EOF
+      - name: Check Markdown links (lychee)
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: --config .lychee.toml README.md CONTRIBUTING.md docs/
+          fail: true
