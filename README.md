@@ -75,11 +75,11 @@ The flagship race in 2026 is a story of convergence and divergence: OpenAI's **G
 
 ### Alibaba — Qwen
 
-- [Qwen3.8-Max](https://help.aliyun.com/en/model-studio/qwen3-8-max) — ⚠️ **$2 in / $6 out** (cached $0.25; Singapore list). 1M context; 2.4T MoE / 95B active; thinking and non-thinking modes. GA Aug 3, 2026 (snapshot `qwen3.8-max-0902`). Code Arena WebDev #1 (1,691, Sept 2026). Open-weights checkpoint (Qwen3.8-2.4T-A95B) under a custom license. Note: **Qwen 4 Max announced Sept 22, 2026 but had no public specs, price, or launch date at cutoff.**
+- [Qwen3.8-Max](https://help.aliyun.com/en/model-studio/qwen3-8-max) — ✅ **$2 in / $6 out** (official page lists ¥14.988/¥44.965 per 1M, Singapore; cached input ¥1.874). 1M context; 2.4T MoE / 95B active; thinking and non-thinking modes. GA Aug 3, 2026 (snapshot `qwen3.8-max-0902`). Code Arena WebDev #1 (1,691, Sept 2026). Open-weights checkpoint (Qwen3.8-2.4T-A95B) under a custom license. Note: **Qwen 4 Max announced Sept 22, 2026 but had no public specs, price, or launch date at cutoff.**
 
 ### Zhipu AI — GLM
 
-- [GLM-5.3](https://www.z.ai) — ⚠️ **$1.40 in / $4.40 out** (cached $0.26). ~1M context; ~743B params. API release Aug 18, 2026. **Open weights under a custom (non-permissive) license.** Vendor: +50% coding over GLM-5.2; CyberGym 84.5%.
+- [GLM-5.3](https://docs.z.ai/guides/overview/pricing) — ⚠️ **$1.40 in / $4.40 out** (cached $0.26). ~1M context; ~743B params. API release Aug 18, 2026. **Open weights under a custom (non-permissive) license.** Vendor: +50% coding over GLM-5.2; CyberGym 84.5%.
 
 ### Moonshot AI — Kimi
 
@@ -109,7 +109,7 @@ The flagship race in 2026 is a story of convergence and divergence: OpenAI's **G
 
 ### Baidu — ERNIE
 
-- [ERNIE 5.1](https://intl.cloud.baidu.com/en/doc/qianfan/s/7m95lyy43-intl-en) — ⚠️ **$0.59 in / $2.65 out** (converted from official CNY rates). 128K context. Preview Apr 29, 2026; released May 8, 2026. Independent: LMArena Text 1476 (**#1 China**), LMArena Search 1223 (**#1 China, #4 global**). Served on Baidu Qianfan.
+- [ERNIE 5.1](https://cloud.baidu.com/product/qianfan) — ⚠️ **$0.59 in / $2.65 out** (converted from official CNY rates). 128K context. Preview Apr 29, 2026; released May 8, 2026. Independent: LMArena Text 1476 (**#1 China**), LMArena Search 1223 (**#1 China, #4 global**). Served on Baidu Qianfan.
 
 ### StepFun
 
@@ -149,7 +149,7 @@ The flagships you can download and run yourself, as of Sept 2026:
 | [MiMo-V2.6-Pro](https://mimo.mi.com) | MIT | #1 open-weight on AA Index (46); omnimodal |
 | [Mistral Large 3](https://docs.mistral.ai/models/mistral-large-3-25-12) | Apache 2.0 | EU-native, GDPR-friendly |
 | [step-3.7-flash](https://huggingface.co/stepfun-ai/Step-3.7-Flash-FP8) | Apache 2.0 | Cheapest flagship price in the survey |
-| [GLM-5.3](https://www.z.ai) | Custom (non-permissive) | Long-horizon coding; check license before commercial use |
+| [GLM-5.3](https://docs.z.ai/guides/overview/pricing) | Custom (non-permissive) | Long-horizon coding; check license before commercial use |
 | [MiniMax M3](https://platform.minimax.io/docs/guides/pricing-paygo) | MiniMax Community License | Multimodal 1M context; check license terms |
 | [Command A+](https://cohere.com/pricing) | Apache 2.0 | Enterprise RAG; self-host or Model Vault |
 | [Nemotron 3 Ultra](https://build.nvidia.com) | Commercial license | Hybrid Mamba-Transformer architecture |

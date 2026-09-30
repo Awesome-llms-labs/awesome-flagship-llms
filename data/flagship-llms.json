@@ -1,1 +1,417 @@
-[{"category":"flagship","description":"OpenAI's flagship: state-of-the-art computer use, software engineering, and science; first model rated 'Critical' for cyber capability under the Preparedness Framework.","features":["1.05M-token context (922K max input) / 128K max output","Computer-use and agentic OS control","First 'Critical' cyber-rated model (OpenAI Preparedness Framework)","Vendor: FrontierMath Tier 4 98%, ARC-AGI-3 99.9%, ExploitBench 100%, OSWorld 2.0 72.6%, Terminal-Bench 4.0 57.9%","reasoning.effort low to max","Knowledge cutoff 2026-04-30; GA Sept 4, 2026"],"name":"GPT-6 Astra","price_input_per_1m":"$10","price_output_per_1m":"$50","price_verified":true,"pricing_url":"https://developers.openai.com/api/docs/pricing","status":"active","url":"https://openai.com/index/gpt-6-astra/","vendor":"OpenAI"},{"category":"flagship","description":"Anthropic's most capable generally available model: long-horizon agentic coding and knowledge work with adaptive thinking.","features":["~1M input / 128K output; text+image in","Adaptive thinking always on (low/medium/high/xhigh/max)","Vendor: Terminal-Bench 4.0 55.8%, TB-Science 52.6%, GDPval-AA 1853","Independent: BenchAlign #1 (84.76), LogRocket coding #1 (1762 Elo)","Cache-read price cut makes agentic workloads ~25-45% cheaper","Released Sept 1, 2026 (gated twin: Claude Mythos 5.1)"],"name":"Claude Fable 5.1","price_input_per_1m":"$10","price_output_per_1m":"$50","price_verified":true,"pricing_url":"https://claude.com/pricing#api","status":"active","url":"https://www.anthropic.com/claude-fable-and-mythos-5-1","vendor":"Anthropic"},{"category":"flagship","description":"Google's Pro-tier flagship: 1M context, native multimodality, and Deep Think reasoning; still the Pro line leader after the 3.5 Pro delay.","features":["1,048,576 input / 65,536 output; native multimodal","Deep Think reasoning mode","Vendor: ARC-AGI-2 77.1%, SWE-Bench Verified 80.6%","Preview since Feb 19, 2026; tiered pricing above 200K prompt","Batch API 50% off; context caching available"],"name":"Gemini 3.1 Pro","price_input_per_1m":"$2 (up to 200K prompt); $4 (above 200K)","price_output_per_1m":"$12 (up to 200K prompt); $18 (above 200K)","price_verified":true,"pricing_url":"https://ai.google.dev/pricing","status":"active","url":"https://ai.google.dev/gemini-api/docs/models","vendor":"Google DeepMind"},{"category":"flagship","description":"xAI's flagship for coding and knowledge work: larger base model with extended RL on multi-hour engineering tasks.","features":["500K context; text+image in, text out","2.1T params (~40% over Grok 4.6)","Vendor: DeepSWE 71.0% (xHigh), CursorBench 4.0 46.3%, Terminal-Bench 4.0 38.0%","Reasoning effort low/medium/high/xhigh (default high)","Distributed via GitHub Copilot, Cursor, Grok Build","Released Sept 21, 2026; 2x-speed 'Fast' variant via Cursor/Grok Build"],"name":"Grok 4.7","price_input_per_1m":"$2 (under 200K prompt); $4 (200K and above)","price_output_per_1m":"$6 (under 200K prompt); $12 (200K and above)","price_verified":true,"pricing_url":"https://docs.x.ai/developers/pricing","status":"active","url":"https://x.ai/news/grok-4-7","vendor":"xAI"},{"category":"flagship","description":"Cheapest frontier-class reasoning at scale, with MIT open weights and peak/off-peak arbitrage billing.","features":["1M input / 384K max output","MIT open weights; 1.6T MoE / 49B active","Peak/off-peak pricing (peak 01:00-04:00 & 06:00-10:00 UTC Mon-Fri)","Vendor: SWE-bench Verified >80%, GPQA Diamond 92.4%","Planned Sept 14, 2026 sunset cancelled - still served","No vision (Flash tier has vision)"],"name":"DeepSeek V4 Pro","price_input_per_1m":"$0.66 off-peak / $1.32 peak","price_output_per_1m":"$1.98 off-peak / $3.96 peak","price_verified":false,"pricing_url":"","status":"active","url":"https://api-docs.deepseek.com/quick_start/pricing","vendor":"DeepSeek"},{"category":"flagship","description":"Alibaba's most capable model: 2.4T-param MoE flagship for coding, long documents, and long-horizon autonomous tasks.","features":["1M context; text+image input","2.4T MoE / 95B active; thinking and non-thinking modes","Code Arena WebDev #1 (1,691, Sept 2026); ranked #5 Text Arena / #2 Vision Arena at launch","Open-weights checkpoint (Qwen3.8-2.4T-A95B) under custom license","GA Aug 3, 2026 (snapshot qwen3.8-max-0902); Qwen 4 Max announced but unreleased"],"name":"Qwen3.8-Max","price_input_per_1m":"$2","price_output_per_1m":"$6","price_verified":false,"pricing_url":"","status":"active","url":"https://help.aliyun.com/en/model-studio/qwen3-8-max","vendor":"Alibaba"},{"category":"flagship","description":"Zhipu's flagship for long-horizon coding with open weights under a custom (non-permissive) license.","features":["~1M context; ~743B params","Open weights (custom license, non-permissive)","Vendor: +50% coding over GLM-5.2; CyberGym 84.5%","API release Aug 18, 2026; supersedes GLM-5/5.1/5.2"],"name":"GLM-5.3","price_input_per_1m":"$1.40","price_output_per_1m":"$4.40","price_verified":false,"pricing_url":"","status":"active","url":"https://www.z.ai","vendor":"Zhipu AI"},{"category":"flagship","description":"Moonshot's open frontier model: the first 3T-class open model, built for long-horizon coding and knowledge work.","features":["1M context; native vision","2.8T params / ~104B active - largest open model at release","Open weights (modified MIT)","Official pricing: $3 in / $15 out; $0.30 cached input","Max thinking effort default; released July 16, 2026 (weights July 27)"],"name":"Kimi K3","price_input_per_1m":"$3","price_output_per_1m":"$15","price_verified":true,"pricing_url":"https://platform.kimi.ai/","status":"active","url":"https://www.kimi.com/blog/kimi-k3","vendor":"Moonshot AI"},{"category":"flagship","description":"Cheapest multimodal 1M-context flagship: text/image/audio/video under a MiniMax community license.","features":["1M combined context; max output 524,288","428B params / 23B active; multimodal (text/image/audio/video)","Open weights (MiniMax Community License)","Vendor: SWE-Bench Pro 59.0%, Terminal-Bench 2.1 66.0%","Released June 1, 2026; tiered pricing above 512K context"],"name":"MiniMax M3","price_input_per_1m":"$0.30 (512K and under); $0.60 (above 512K)","price_output_per_1m":"$1.20 (512K and under); $2.40 (above 512K)","price_verified":false,"pricing_url":"","status":"active","url":"https://platform.minimax.io/docs/guides/pricing-paygo","vendor":"MiniMax"},{"category":"flagship","description":"Mistral's EU-native Apache-2.0 flagship: efficient MoE with GDPR-friendly European hosting.","features":["256K context; native multimodal (text+image in)","675B MoE / ~41B active per token","Apache 2.0 open weights; 80+ languages","Batch API 50% off; cached input up to 90% off","Released Dec 2, 2025; still the flagship per Sept-2026 sources"],"name":"Mistral Large 3","price_input_per_1m":"$0.50","price_output_per_1m":"$1.50","price_verified":true,"pricing_url":"https://mistral.ai/pricing/","status":"active","url":"https://docs.mistral.ai/models/mistral-large-3-25-12","vendor":"Mistral AI"},{"category":"flagship","description":"Cohere's enterprise flagship for RAG and knowledge work; production runs via Model Vault or self-hosting rather than per-token billing.","features":["128K input / 64K output; 48 languages","218B params / 24B active","Apache 2.0 open weights","No conventional public per-token production price","Command A (non-plus) remains the self-serve default with 256K context"],"name":"Command A+","price_input_per_1m":"unverified","price_output_per_1m":"unverified","price_verified":false,"pricing_url":"","status":"active","url":"https://cohere.com/pricing","vendor":"Cohere"},{"category":"flagship","description":"Amazon's most intelligent model - preview-gated to Nova Forge customers with no public model card yet.","features":["Preview-gated via Nova Forge; no GA date announced","No public model card or published benchmarks","Third-party price estimates conflict - listed as unverified","Nova Premier reached EOL Sept 14, 2026"],"name":"Nova 2 Pro","price_input_per_1m":"unverified","price_output_per_1m":"unverified","price_verified":false,"pricing_url":"","status":"commercial","url":"https://aws.amazon.com/ai/generative-ai/nova","vendor":"Amazon"},{"category":"flagship","description":"The current generally available Nova flagship-class model on Bedrock.","features":["1M input / 64K output","Served on Amazon Bedrock","Positioned below the preview-gated Nova 2 Pro"],"name":"Nova 2 Lite","price_input_per_1m":"$0.30","price_output_per_1m":"$2.50","price_verified":false,"pricing_url":"","status":"active","url":"https://aws.amazon.com/ai/generative-ai/nova","vendor":"Amazon"},{"category":"flagship","description":"Meta's frontier model powering the Meta ecosystem (WhatsApp/Instagram/Workplace); contributor tier trains on data.","features":["1M context; image/video/document multimodal","Independent: Artificial Analysis Intelligence Index 62; LiveBench rank 5 ($0.219/task)","Contributor tier ($0.10/$0.20) has training-data-use terms","Released Sept 2, 2026 (max-reasoning variant Sept 4)","Llama 4 Maverick remains the open-weight flagship line"],"name":"Muse Spark 1.3","price_input_per_1m":"$1.25","price_output_per_1m":"$4.25","price_verified":false,"pricing_url":"","status":"active","url":"https://developer.meta.com/ai/resources/blog/build-with-muse-spark/","vendor":"Meta"},{"category":"flagship","description":"China's top LMArena text model, integrated with the Baidu Search ecosystem via the Qianfan platform.","features":["128K context","Independent: LMArena Text 1476 (#1 China), LMArena Search 1223 (#1 China, #4 global)","Available on Baidu Qianfan Model Plaza and ERNIE Bot","Preview April 29, 2026; released May 8, 2026"],"name":"ERNIE 5.1","price_input_per_1m":"$0.59 (converted from CNY)","price_output_per_1m":"$2.65 (converted from CNY)","price_verified":false,"pricing_url":"","status":"active","url":"https://intl.cloud.baidu.com/en/doc/qianfan/s/7m95lyy43-intl-en","vendor":"Baidu"},{"category":"flagship","description":"StepFun's flagship despite the 'Flash' name: agentic/tool-use strength at the lowest flagship price in the survey, with Apache-2.0 open weights.","features":["256K input / 230,400 max output; 10 languages","198B MoE / 11B active; multimodal (text/image/video)","Apache 2.0 open weights (BF16, FP8, NVFP4, GGUF)","SWE-Bench PRO 56.3% (2nd place); Terminal-Bench 2.1 59.5%","Released May 2026; served on StepFun Platform, OpenRouter, NVIDIA NIM"],"name":"step-3.7-flash","price_input_per_1m":"$0.20","price_output_per_1m":"$1.15","price_verified":false,"pricing_url":"","status":"active","url":"https://huggingface.co/stepfun-ai/Step-3.7-Flash-FP8","vendor":"StepFun"},{"category":"flagship","description":"#1 open-weight model on the Artificial Analysis index at release; omnimodal Xiaomi flagship tied to the device ecosystem.","features":["1M input / 128K output; omnimodal (text/image/audio/video)","1.02T params / 42B active","MIT open weights","Independent: AA Intelligence Index 46 (#1 open-weight, tied Grok 4.7)","Released Sept 21, 2026"],"name":"MiMo-V2.6-Pro","price_input_per_1m":"$0.435","price_output_per_1m":"$0.87","price_verified":false,"pricing_url":"","status":"active","url":"https://mimo.mi.com","vendor":"Xiaomi"},{"category":"flagship","description":"Microsoft's first from-scratch flagship on commercially licensed training data; Foundry meter billing, no per-token list price.","features":["256K total per-request budget / 64K output cap (incl. reasoning tokens)","35B active-param MoE; trained from scratch on commercially licensed data","Vendor claims: preferred over Claude Sonnet 4.6 in blind evals; matches Opus 4.6 on SWE-bench Pro","Billed via Microsoft Foundry input/output usage meters","Announced at Build 2026 (June 2); private preview on Foundry"],"name":"MAI-Thinking-1","price_input_per_1m":"unverified","price_output_per_1m":"unverified","price_verified":false,"pricing_url":"","status":"commercial","url":"https://azure.microsoft.com/pricing/details/microsoft-foundry/","vendor":"Microsoft"},{"category":"flagship","description":"NVIDIA's hybrid Mamba-Transformer MoE flagship, distributed through the NIM ecosystem.","features":["1M input / 66K output","550B params / 55B active; hybrid Mamba-Transformer MoE","Open weights (commercial license)","Independent: AA Intelligence Index 47.7","Released June 4, 2026; no NVIDIA token list price published"],"name":"Nemotron 3 Ultra","price_input_per_1m":"unverified","price_output_per_1m":"unverified","price_verified":false,"pricing_url":"","status":"active","url":"https://build.nvidia.com","vendor":"NVIDIA"},{"category":"flagship","description":"Tencent's newest open flagship: 770B Apache-2.0 model, open-sourced Sept 2026, served via TokenHub and OpenRouter.","features":[">1M context; 770B total / 49B active MoE","Apache 2.0 open weights","Open-sourced Sept 2026; served via Tencent Cloud TokenHub and OpenRouter","Vendor internal blind eval: 2.99/4.00 (vs GLM-5.3 2.92, Kimi K3 2.94)","Preview-class; GA successor not yet announced"],"name":"Hy4 Preview","price_input_per_1m":"$0.834","price_output_per_1m":"$2.501","price_verified":false,"pricing_url":"","status":"commercial","url":"https://github.com/tencent-hunyuan/hy4-preview","vendor":"Tencent"},{"category":"flagship","description":"Tencent's stable GA open-weight flagship under Apache 2.0, aimed at WeChat-scale agent deployment.","features":["256K context; 295B / 21B active (+MTP)","Apache 2.0 open weights","Hybrid thinking; native tool calling; MTP speculative decoding","Released July 6, 2026; topped OpenRouter weekly usage at launch"],"name":"Hy3","price_input_per_1m":"$0.15 (converted from CNY)","price_output_per_1m":"$0.59 (converted from CNY)","price_verified":false,"pricing_url":"","status":"active","url":"https://github.com/tencent-hunyuan/hy4-preview","vendor":"Tencent"},{"category":"flagship","description":"ByteDance's flagship for the Doubao/TikTok product ecosystem; vendor benchmark claims without published scores.","features":["~256K context (unconfirmed)","Vendor claims leadership on Terminal Bench 2.1, SWE-Pro, SciCode, OSWorld, MMMU-Pro (scores not published)","Closed (API); released June 23, 2026","Seed 2.0 superseded in 2026"],"name":"Doubao-Seed-2.1 Pro","price_input_per_1m":"¥6 (CNY, not converted)","price_output_per_1m":"¥30 (CNY, not converted)","price_verified":false,"pricing_url":"","status":"active","url":"https://seed.bytedance.com","vendor":"ByteDance"}]
+[
+  {
+    "category": "flagship",
+    "description": "OpenAI's flagship: state-of-the-art computer use, software engineering, and science; first model rated 'Critical' for cyber capability under the Preparedness Framework.",
+    "features": [
+      "1.05M-token context (922K max input) / 128K max output",
+      "Computer-use and agentic OS control",
+      "First 'Critical' cyber-rated model (OpenAI Preparedness Framework)",
+      "Vendor: FrontierMath Tier 4 98%, ARC-AGI-3 99.9%, ExploitBench 100%, OSWorld 2.0 72.6%, Terminal-Bench 4.0 57.9%",
+      "reasoning.effort low to max",
+      "Knowledge cutoff 2026-04-30; GA Sept 4, 2026"
+    ],
+    "name": "GPT-6 Astra",
+    "price_input_per_1m": "$10",
+    "price_output_per_1m": "$50",
+    "price_verified": true,
+    "pricing_url": "https://developers.openai.com/api/docs/pricing",
+    "status": "active",
+    "url": "https://openai.com/index/gpt-6-astra/",
+    "vendor": "OpenAI"
+  },
+  {
+    "category": "flagship",
+    "description": "Anthropic's most capable generally available model: long-horizon agentic coding and knowledge work with adaptive thinking.",
+    "features": [
+      "~1M input / 128K output; text+image in",
+      "Adaptive thinking always on (low/medium/high/xhigh/max)",
+      "Vendor: Terminal-Bench 4.0 55.8%, TB-Science 52.6%, GDPval-AA 1853",
+      "Independent: BenchAlign #1 (84.76), LogRocket coding #1 (1762 Elo)",
+      "Cache-read price cut makes agentic workloads ~25-45% cheaper",
+      "Released Sept 1, 2026 (gated twin: Claude Mythos 5.1)"
+    ],
+    "name": "Claude Fable 5.1",
+    "price_input_per_1m": "$10",
+    "price_output_per_1m": "$50",
+    "price_verified": true,
+    "pricing_url": "https://claude.com/pricing#api",
+    "status": "active",
+    "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+    "vendor": "Anthropic"
+  },
+  {
+    "category": "flagship",
+    "description": "Google's Pro-tier flagship: 1M context, native multimodality, and Deep Think reasoning; still the Pro line leader after the 3.5 Pro delay.",
+    "features": [
+      "1,048,576 input / 65,536 output; native multimodal",
+      "Deep Think reasoning mode",
+      "Vendor: ARC-AGI-2 77.1%, SWE-Bench Verified 80.6%",
+      "Preview since Feb 19, 2026; tiered pricing above 200K prompt",
+      "Batch API 50% off; context caching available"
+    ],
+    "name": "Gemini 3.1 Pro",
+    "price_input_per_1m": "$2 (up to 200K prompt); $4 (above 200K)",
+    "price_output_per_1m": "$12 (up to 200K prompt); $18 (above 200K)",
+    "price_verified": true,
+    "pricing_url": "https://ai.google.dev/pricing",
+    "status": "active",
+    "url": "https://ai.google.dev/gemini-api/docs/models",
+    "vendor": "Google DeepMind"
+  },
+  {
+    "category": "flagship",
+    "description": "xAI's flagship for coding and knowledge work: larger base model with extended RL on multi-hour engineering tasks.",
+    "features": [
+      "500K context; text+image in, text out",
+      "2.1T params (~40% over Grok 4.6)",
+      "Vendor: DeepSWE 71.0% (xHigh), CursorBench 4.0 46.3%, Terminal-Bench 4.0 38.0%",
+      "Reasoning effort low/medium/high/xhigh (default high)",
+      "Distributed via GitHub Copilot, Cursor, Grok Build",
+      "Released Sept 21, 2026; 2x-speed 'Fast' variant via Cursor/Grok Build"
+    ],
+    "name": "Grok 4.7",
+    "price_input_per_1m": "$2 (under 200K prompt); $4 (200K and above)",
+    "price_output_per_1m": "$6 (under 200K prompt); $12 (200K and above)",
+    "price_verified": true,
+    "pricing_url": "https://docs.x.ai/developers/pricing",
+    "status": "active",
+    "url": "https://x.ai/news/grok-4-7",
+    "vendor": "xAI"
+  },
+  {
+    "category": "flagship",
+    "description": "Cheapest frontier-class reasoning at scale, with MIT open weights and peak/off-peak arbitrage billing.",
+    "features": [
+      "1M input / 384K max output",
+      "MIT open weights; 1.6T MoE / 49B active",
+      "Peak/off-peak pricing (peak 01:00-04:00 & 06:00-10:00 UTC Mon-Fri)",
+      "Vendor: SWE-bench Verified >80%, GPQA Diamond 92.4%",
+      "Planned Sept 14, 2026 sunset cancelled - still served",
+      "No vision (Flash tier has vision)"
+    ],
+    "name": "DeepSeek V4 Pro",
+    "price_input_per_1m": "$0.66 off-peak / $1.32 peak",
+    "price_output_per_1m": "$1.98 off-peak / $3.96 peak",
+    "price_verified": false,
+    "pricing_url": "",
+    "status": "active",
+    "url": "https://api-docs.deepseek.com/quick_start/pricing",
+    "vendor": "DeepSeek"
+  },
+  {
+    "category": "flagship",
+    "description": "Alibaba's most capable model: 2.4T-param MoE flagship for coding, long documents, and long-horizon autonomous tasks.",
+    "features": [
+      "1M context; text+image input",
+      "2.4T MoE / 95B active; thinking and non-thinking modes",
+      "Code Arena WebDev #1 (1,691, Sept 2026); ranked #5 Text Arena / #2 Vision Arena at launch",
+      "Open-weights checkpoint (Qwen3.8-2.4T-A95B) under custom license",
+      "GA Aug 3, 2026 (snapshot qwen3.8-max-0902); Qwen 4 Max announced but unreleased"
+    ],
+    "name": "Qwen3.8-Max",
+    "price_input_per_1m": "$2",
+    "price_output_per_1m": "$6",
+    "price_verified": true,
+    "pricing_url": "https://help.aliyun.com/en/model-studio/qwen3-8-max",
+    "status": "active",
+    "url": "https://help.aliyun.com/en/model-studio/qwen3-8-max",
+    "vendor": "Alibaba"
+  },
+  {
+    "category": "flagship",
+    "description": "Zhipu's flagship for long-horizon coding with open weights under a custom (non-permissive) license.",
+    "features": [
+      "~1M context; ~743B params",
+      "Open weights (custom license, non-permissive)",
+      "Vendor: +50% coding over GLM-5.2; CyberGym 84.5%",
+      "API release Aug 18, 2026; supersedes GLM-5/5.1/5.2"
+    ],
+    "name": "GLM-5.3",
+    "price_input_per_1m": "$1.40",
+    "price_output_per_1m": "$4.40",
+    "price_verified": false,
+    "pricing_url": "",
+    "status": "active",
+    "url": "https://docs.z.ai/guides/overview/pricing",
+    "vendor": "Zhipu AI"
+  },
+  {
+    "category": "flagship",
+    "description": "Moonshot's open frontier model: the first 3T-class open model, built for long-horizon coding and knowledge work.",
+    "features": [
+      "1M context; native vision",
+      "2.8T params / ~104B active - largest open model at release",
+      "Open weights (modified MIT)",
+      "Official pricing: $3 in / $15 out; $0.30 cached input",
+      "Max thinking effort default; released July 16, 2026 (weights July 27)"
+    ],
+    "name": "Kimi K3",
+    "price_input_per_1m": "$3",
+    "price_output_per_1m": "$15",
+    "price_verified": true,
+    "pricing_url": "https://platform.kimi.ai/",
+    "status": "active",
+    "url": "https://www.kimi.com/blog/kimi-k3",
+    "vendor": "Moonshot AI"
+  },
+  {
+    "category": "flagship",
+    "description": "Cheapest multimodal 1M-context flagship: text/image/audio/video under a MiniMax community license.",
+    "features": [
+      "1M combined context; max output 524,288",
+      "428B params / 23B active; multimodal (text/image/audio/video)",
+      "Open weights (MiniMax Community License)",
+      "Vendor: SWE-Bench Pro 59.0%, Terminal-Bench 2.1 66.0%",
+      "Released June 1, 2026; tiered pricing above 512K context"
+    ],
+    "name": "MiniMax M3",
+    "price_input_per_1m": "$0.30 (512K and under); $0.60 (above 512K)",
+    "price_output_per_1m": "$1.20 (512K and under); $2.40 (above 512K)",
+    "price_verified": false,
+    "pricing_url": "",
+    "status": "active",
+    "url": "https://platform.minimax.io/docs/guides/pricing-paygo",
+    "vendor": "MiniMax"
+  },
+  {
+    "category": "flagship",
+    "description": "Mistral's EU-native Apache-2.0 flagship: efficient MoE with GDPR-friendly European hosting.",
+    "features": [
+      "256K context; native multimodal (text+image in)",
+      "675B MoE / ~41B active per token",
+      "Apache 2.0 open weights; 80+ languages",
+      "Batch API 50% off; cached input up to 90% off",
+      "Released Dec 2, 2025; still the flagship per Sept-2026 sources"
+    ],
+    "name": "Mistral Large 3",
+    "price_input_per_1m": "$0.50",
+    "price_output_per_1m": "$1.50",
+    "price_verified": true,
+    "pricing_url": "https://mistral.ai/pricing/",
+    "status": "active",
+    "url": "https://docs.mistral.ai/models/mistral-large-3-25-12",
+    "vendor": "Mistral AI"
+  },
+  {
+    "category": "flagship",
+    "description": "Cohere's enterprise flagship for RAG and knowledge work; production runs via Model Vault or self-hosting rather than per-token billing.",
+    "features": [
+      "128K input / 64K output; 48 languages",
+      "218B params / 24B active",
+      "Apache 2.0 open weights",
+      "No conventional public per-token production price",
+      "Command A (non-plus) remains the self-serve default with 256K context"
+    ],
+    "name": "Command A+",
+    "price_input_per_1m": "unverified",
+    "price_output_per_1m": "unverified",
+    "price_verified": false,
+    "pricing_url": "",
+    "status": "active",
+    "url": "https://cohere.com/pricing",
+    "vendor": "Cohere"
+  },
+  {
+    "category": "flagship",
+    "description": "Amazon's most intelligent model - preview-gated to Nova Forge customers with no public model card yet.",
+    "features": [
+      "Preview-gated via Nova Forge; no GA date announced",
+      "No public model card or published benchmarks",
+      "Third-party price estimates conflict - listed as unverified",
+      "Nova Premier reached EOL Sept 14, 2026"
+    ],
+    "name": "Nova 2 Pro",
+    "price_input_per_1m": "unverified",
+    "price_output_per_1m": "unverified",
+    "price_verified": false,
+    "pricing_url": "",
+    "status": "commercial",
+    "url": "https://aws.amazon.com/ai/generative-ai/nova",
+    "vendor": "Amazon"
+  },
+  {
+    "category": "flagship",
+    "description": "The current generally available Nova flagship-class model on Bedrock.",
+    "features": [
+      "1M input / 64K output",
+      "Served on Amazon Bedrock",
+      "Positioned below the preview-gated Nova 2 Pro"
+    ],
+    "name": "Nova 2 Lite",
+    "price_input_per_1m": "$0.30",
+    "price_output_per_1m": "$2.50",
+    "price_verified": false,
+    "pricing_url": "",
+    "status": "active",
+    "url": "https://aws.amazon.com/ai/generative-ai/nova",
+    "vendor": "Amazon"
+  },
+  {
+    "category": "flagship",
+    "description": "Meta's frontier model powering the Meta ecosystem (WhatsApp/Instagram/Workplace); contributor tier trains on data.",
+    "features": [
+      "1M context; image/video/document multimodal",
+      "Independent: Artificial Analysis Intelligence Index 62; LiveBench rank 5 ($0.219/task)",
+      "Contributor tier ($0.10/$0.20) has training-data-use terms",
+      "Released Sept 2, 2026 (max-reasoning variant Sept 4)",
+      "Llama 4 Maverick remains the open-weight flagship line"
+    ],
+    "name": "Muse Spark 1.3",
+    "price_input_per_1m": "$1.25",
+    "price_output_per_1m": "$4.25",
+    "price_verified": false,
+    "pricing_url": "",
+    "status": "active",
+    "url": "https://developer.meta.com/ai/resources/blog/build-with-muse-spark/",
+    "vendor": "Meta"
+  },
+  {
+    "category": "flagship",
+    "description": "China's top LMArena text model, integrated with the Baidu Search ecosystem via the Qianfan platform.",
+    "features": [
+      "128K context",
+      "Independent: LMArena Text 1476 (#1 China), LMArena Search 1223 (#1 China, #4 global)",
+      "Available on Baidu Qianfan Model Plaza and ERNIE Bot",
+      "Preview April 29, 2026; released May 8, 2026"
+    ],
+    "name": "ERNIE 5.1",
+    "price_input_per_1m": "$0.59 (converted from CNY)",
+    "price_output_per_1m": "$2.65 (converted from CNY)",
+    "price_verified": false,
+    "pricing_url": "",
+    "status": "active",
+    "url": "https://cloud.baidu.com/product/qianfan",
+    "vendor": "Baidu"
+  },
+  {
+    "category": "flagship",
+    "description": "StepFun's flagship despite the 'Flash' name: agentic/tool-use strength at the lowest flagship price in the survey, with Apache-2.0 open weights.",
+    "features": [
+      "256K input / 230,400 max output; 10 languages",
+      "198B MoE / 11B active; multimodal (text/image/video)",
+      "Apache 2.0 open weights (BF16, FP8, NVFP4, GGUF)",
+      "SWE-Bench PRO 56.3% (2nd place); Terminal-Bench 2.1 59.5%",
+      "Released May 2026; served on StepFun Platform, OpenRouter, NVIDIA NIM"
+    ],
+    "name": "step-3.7-flash",
+    "price_input_per_1m": "$0.20",
+    "price_output_per_1m": "$1.15",
+    "price_verified": false,
+    "pricing_url": "",
+    "status": "active",
+    "url": "https://huggingface.co/stepfun-ai/Step-3.7-Flash-FP8",
+    "vendor": "StepFun"
+  },
+  {
+    "category": "flagship",
+    "description": "#1 open-weight model on the Artificial Analysis index at release; omnimodal Xiaomi flagship tied to the device ecosystem.",
+    "features": [
+      "1M input / 128K output; omnimodal (text/image/audio/video)",
+      "1.02T params / 42B active",
+      "MIT open weights",
+      "Independent: AA Intelligence Index 46 (#1 open-weight, tied Grok 4.7)",
+      "Released Sept 21, 2026"
+    ],
+    "name": "MiMo-V2.6-Pro",
+    "price_input_per_1m": "$0.435",
+    "price_output_per_1m": "$0.87",
+    "price_verified": false,
+    "pricing_url": "",
+    "status": "active",
+    "url": "https://mimo.mi.com",
+    "vendor": "Xiaomi"
+  },
+  {
+    "category": "flagship",
+    "description": "Microsoft's first from-scratch flagship on commercially licensed training data; Foundry meter billing, no per-token list price.",
+    "features": [
+      "256K total per-request budget / 64K output cap (incl. reasoning tokens)",
+      "35B active-param MoE; trained from scratch on commercially licensed data",
+      "Vendor claims: preferred over Claude Sonnet 4.6 in blind evals; matches Opus 4.6 on SWE-bench Pro",
+      "Billed via Microsoft Foundry input/output usage meters",
+      "Announced at Build 2026 (June 2); private preview on Foundry"
+    ],
+    "name": "MAI-Thinking-1",
+    "price_input_per_1m": "unverified",
+    "price_output_per_1m": "unverified",
+    "price_verified": false,
+    "pricing_url": "",
+    "status": "commercial",
+    "url": "https://azure.microsoft.com/pricing/details/microsoft-foundry/",
+    "vendor": "Microsoft"
+  },
+  {
+    "category": "flagship",
+    "description": "NVIDIA's hybrid Mamba-Transformer MoE flagship, distributed through the NIM ecosystem.",
+    "features": [
+      "1M input / 66K output",
+      "550B params / 55B active; hybrid Mamba-Transformer MoE",
+      "Open weights (commercial license)",
+      "Independent: AA Intelligence Index 47.7",
+      "Released June 4, 2026; no NVIDIA token list price published"
+    ],
+    "name": "Nemotron 3 Ultra",
+    "price_input_per_1m": "unverified",
+    "price_output_per_1m": "unverified",
+    "price_verified": false,
+    "pricing_url": "",
+    "status": "active",
+    "url": "https://build.nvidia.com",
+    "vendor": "NVIDIA"
+  },
+  {
+    "category": "flagship",
+    "description": "Tencent's newest open flagship: 770B Apache-2.0 model, open-sourced Sept 2026, served via TokenHub and OpenRouter.",
+    "features": [
+      ">1M context; 770B total / 49B active MoE",
+      "Apache 2.0 open weights",
+      "Open-sourced Sept 2026; served via Tencent Cloud TokenHub and OpenRouter",
+      "Vendor internal blind eval: 2.99/4.00 (vs GLM-5.3 2.92, Kimi K3 2.94)",
+      "Preview-class; GA successor not yet announced"
+    ],
+    "name": "Hy4 Preview",
+    "price_input_per_1m": "$0.834",
+    "price_output_per_1m": "$2.501",
+    "price_verified": false,
+    "pricing_url": "",
+    "status": "commercial",
+    "url": "https://github.com/tencent-hunyuan/hy4-preview",
+    "vendor": "Tencent"
+  },
+  {
+    "category": "flagship",
+    "description": "Tencent's stable GA open-weight flagship under Apache 2.0, aimed at WeChat-scale agent deployment.",
+    "features": [
+      "256K context; 295B / 21B active (+MTP)",
+      "Apache 2.0 open weights",
+      "Hybrid thinking; native tool calling; MTP speculative decoding",
+      "Released July 6, 2026; topped OpenRouter weekly usage at launch"
+    ],
+    "name": "Hy3",
+    "price_input_per_1m": "$0.15 (converted from CNY)",
+    "price_output_per_1m": "$0.59 (converted from CNY)",
+    "price_verified": false,
+    "pricing_url": "",
+    "status": "active",
+    "url": "https://github.com/tencent-hunyuan/hy4-preview",
+    "vendor": "Tencent"
+  },
+  {
+    "category": "flagship",
+    "description": "ByteDance's flagship for the Doubao/TikTok product ecosystem; vendor benchmark claims without published scores.",
+    "features": [
+      "~256K context (unconfirmed)",
+      "Vendor claims leadership on Terminal Bench 2.1, SWE-Pro, SciCode, OSWorld, MMMU-Pro (scores not published)",
+      "Closed (API); released June 23, 2026",
+      "Seed 2.0 superseded in 2026"
+    ],
+    "name": "Doubao-Seed-2.1 Pro",
+    "price_input_per_1m": "¥6 (CNY, not converted)",
+    "price_output_per_1m": "¥30 (CNY, not converted)",
+    "price_verified": false,
+    "pricing_url": "",
+    "status": "active",
+    "url": "https://seed.bytedance.com",
+    "vendor": "ByteDance"
+  }
+]
